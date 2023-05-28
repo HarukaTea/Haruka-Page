@@ -1,0 +1,3 @@
+
+# 不上传package里的已打包文件
+/package

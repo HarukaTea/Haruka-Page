@@ -1,0 +1,95 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: inherit;
+    color: lightgray;
+}
+
+/* 页面背景图片 */
+body {
+    background-image: url(static/aokana.jpg);
+    background-color: rgb(100,100,100);
+    background-size: cover;
+}
+
+.overlay {
+    position: fixed;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+/* 关于我 */
+.user-intro {
+    width: 93%;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.user-intro img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.user-intro span {
+    position: absolute;
+    font-weight: bold;
+    font-size: large;
+    margin: 45px 0 0 120px;
+}
+
+.user-intro span.desc {
+    font-weight: normal;
+    margin-top: 75px;
+    font-size: medium;
+}
+
+/* 各个介绍栏的标题 */
+.title-section {
+    width: 93%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.color-block {
+    background-color: #21d17f;
+    height: 100%;
+    width: 10px;
+}
+
+.title-section h2 {
+    position: relative;
+    left: 25px;
+    bottom: 37px;
+}
+
+/* 个人链接 */
+.links-info {
+    width: 93%;
+    height: 100px;
+    margin: 20px auto;
+}
+
+h3 {
+    margin: 7px 0;
+}
+h3 a{
+    font-weight: normal;
+}
+
+/* 个人介绍 */
+.person-info {
+    width: 93%;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.person-info p {
+    font-size: large;
+    margin-bottom: 10px;
+}

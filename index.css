@@ -11,6 +11,7 @@ body {
     background-image: url(static/aokana.jpg);
     background-color: rgb(100,100,100);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .overlay {
@@ -24,7 +25,7 @@ body {
 /* 关于我 */
 .user-intro {
     width: 93%;
-    height: 150px;
+    height: 130px;
     margin: 10px auto;
 }
 
